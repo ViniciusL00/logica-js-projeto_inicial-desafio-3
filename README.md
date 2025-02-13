@@ -1,5 +1,5 @@
-# logica-js-projeto_inicial-2-desafio-3
- Terceiro desafio de logica de programação com JavaScript.
+# terceiro-desafio-logica-programacao-javascript-parte-2.
+ Terceiro desafio de logica de programação com JavaScript parte 2.
 
 1. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
 
