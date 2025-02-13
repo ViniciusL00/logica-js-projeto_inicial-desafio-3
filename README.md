@@ -39,6 +39,34 @@
 
 4. Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
 
+    function calcularAreaPerimetro(altura, largura) {
+        const area = altura * largura;
+        const perimetro = 2 * (altura + largura);
+        console.log(`Área com ${area} m².`);
+        console.log(`Perímetro com ${perimetro} metros.`);
+    }
+
+    calcularAreaPerimetro (15, 23);
+
 5. Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
 
+    function calcularAreaPerimetroCircular(raio) {
+        const pi = 3.14;
+        const area = pi * (raio * raio);
+        const perimetro = 2 * pi * raio;
+        console.log(`Area ${area} m²`);
+        console.log(`Perimetro ${perimetro} metros`);
+    }
+
+    calcularAreaPerimetroCircular(5);
+
 6. Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+
+    function mostrarTabuada(numero, limite) {
+        for (let i = 1; i <= limite; i++) {
+            const resultado = numero * i;
+            console.log(numero + " x " + i + " = " + resultado);
+        }
+    }
+
+    mostrarTabuada(12, 10);
